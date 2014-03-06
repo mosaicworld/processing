@@ -8,7 +8,9 @@
 // 4 if the user presses a keyboard key (not 's' or 'S'), the scale of the unfilled squares
 // will be changed (observed when dragging the mouse from right to left again)
 // 5 if the user presses the 's' or 'S' key, the current image will be saved as 
-// "screenshot.png" in the Processing project
+// "screenshotmmddyyyy-hhmmss.png" in the Processing project, where mm is the current month,
+// dd is the date, yyyy is the year, hh is the hour, mm is the minutes, and ss is the 
+// seconds of the current date and time.
 
 // global vars
   int count_mouse_press;
